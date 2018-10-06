@@ -11,6 +11,21 @@
           "lib/Net40/ICSharpCode.AvalonEdit.dll": {}
         }
       },
+      "BalaReva.Excel.Activities/14.0.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.Office.Interop.Access",
+          "Microsoft.Office.Interop.Excel"
+        ],
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/BalaReva.Excel.Design.dll": {},
+          "lib/BalaReva.Excel.dll": {},
+          "lib/BalaReva.Utilities.dll": {}
+        }
+      },
       "BouncyCastle/1.8.1": {
         "type": "package",
         "compile": {
@@ -391,6 +406,18 @@
         "lib/Net35/ICSharpCode.AvalonEdit.xml",
         "lib/Net40/ICSharpCode.AvalonEdit.dll",
         "lib/Net40/ICSharpCode.AvalonEdit.xml"
+      ]
+    },
+    "BalaReva.Excel.Activities/14.0.1": {
+      "sha512": "ua+JZCn89WDJWyn9fSueJniALB9cyCH2xu8hfkusBqe+euFDZT4AYZ/Z4u/QBdEC6Ngu8fYmFoh4EMZ0QKSq4w==",
+      "type": "package",
+      "path": "balareva.excel.activities/14.0.1",
+      "files": [
+        "balareva.excel.activities.14.0.1.nupkg.sha512",
+        "balareva.excel.activities.nuspec",
+        "lib/BalaReva.Excel.Design.dll",
+        "lib/BalaReva.Excel.dll",
+        "lib/BalaReva.Utilities.dll"
       ]
     },
     "BouncyCastle/1.8.1": {
@@ -916,6 +943,7 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
+      "BalaReva.Excel.Activities >= 14.0.1 <= 14.0.1",
       "ExcelFileToPDF.Activities >= 1.0.0 <= 1.0.0",
       "Excel_Extensions >= 1.0.15 <= 1.0.15",
       "UiPath.Excel.Activities >= 2.3.6682.26635 <= 2.3.6682.26635",
@@ -931,13 +959,18 @@
     "restore": {
       "projectUniqueName": "Sejda_PDF_Excel_PDF_Conversion",
       "projectName": "Sejda_PDF_Excel_PDF_Conversion",
-      "projectPath": "E:\\UiPath\\Sejda_PDF_Excel_PDF_Conversion\\.local",
+      "projectPath": "E:\\UiPath\\Sejda\\Sejda\\Sejda_PDF_Excel_PDF_Conversion\\.local",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "E:\\UiPath\\Sejda_PDF_Excel_PDF_Conversion\\.local"
+      "outputPath": "E:\\UiPath\\Sejda\\Sejda\\Sejda_PDF_Excel_PDF_Conversion\\.local"
     },
     "frameworks": {
       "net461": {
         "dependencies": {
+          "BalaReva.Excel.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[14.0.1, 14.0.1]"
+          },
           "ExcelFileToPDF.Activities": {
             "include": "Runtime",
             "target": "Package",

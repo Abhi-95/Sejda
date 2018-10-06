@@ -8,7 +8,8 @@
     "UiPath.Excel.Activities": "[2.3.6682.26635]",
     "UiPath.Mail.Activities": "[1.1.6562.21018]",
     "Excel_Extensions": "[1.0.15]",
-    "ExcelFileToPDF.Activities": "[1.0.0]"
+    "ExcelFileToPDF.Activities": "[1.0.0]",
+    "BalaReva.Excel.Activities": "[14.0.1]"
   },
   "schemaVersion": "3.2",
   "studioVersion": "18.3.0.0",
